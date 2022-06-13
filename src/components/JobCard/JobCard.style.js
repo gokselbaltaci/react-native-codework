@@ -20,7 +20,6 @@ export default StyleSheet.create({
     fontSize: 14,
     margin: 4,
     color: '#000',
-    
   },
   inner_container: {
     flexDirection: 'row',
@@ -29,14 +28,14 @@ export default StyleSheet.create({
   location_text: {
     fontWeight: 'bold',
     color: '#fff',
-    backgroundColor: '#0076b5',
+    backgroundColor: '#303f9f',
     padding: 4,
     marginLeft: 2,
     borderRadius: 50,
   },
   job_level_text: {
     fontSize: 15,
-    color: '#0076b5',
+    color: '#303f9f',
     fontWeight: 'bold',
     margin: 5,
   },
@@ -47,7 +46,7 @@ export default StyleSheet.create({
   },
   remove_group_buttons: {
     flex: 1,
-    backgroundColor: '#0076b5',
+    backgroundColor: '#303f9f',
     padding: 3,
     margin: 3,
     borderRadius: 5,

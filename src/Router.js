@@ -25,7 +25,7 @@ const JobStack = () => {
           headerTitleAlign: 'center',
           headerTitle: 'Jobs',
           headerTintColor: '#fff',
-          headerStyle: {backgroundColor: '#0076b5'},
+          headerStyle: {backgroundColor: '#303f9f'},
         }}
       />
       <Stack.Screen
@@ -36,7 +36,7 @@ const JobStack = () => {
           headerTitleAlign: 'center',
           headerTitle: 'Details',
           headerTintColor: '#fff',
-          headerStyle: {backgroundColor: '#0076b5'},
+          headerStyle: {backgroundColor: '#303f9f'},
         }}
       />
     </Stack.Navigator>
@@ -54,7 +54,7 @@ const FavoriteStack = () => {
           headerTitleAlign: 'center',
           headerTitle: 'Favorite Jobs',
           headerTintColor: '#fff',
-          headerStyle: {backgroundColor: '#0076b5'},
+          headerStyle: {backgroundColor: '#303f9f'},
         }}
       />
     </Stack.Navigator>
@@ -78,9 +78,9 @@ const Router = () => {
             }
             return <Icon name={iconName} size={24} color="#fff" />;
           },
-          tabBarStyle: {backgroundColor: '#0076b5'},
+          tabBarStyle: {backgroundColor: '#303f9f'},
           tabBarActiveTintColor: '#fff',
-          tabBarInactiveTintColor: 'grey',
+          tabBarInactiveTintColor: '#b0bec5',
           tabBarIconStyle: {textAlign: 'center'},
           headerShown: false,
           tabBarLabelStyle: {fontSize: 14},
@@ -92,7 +92,7 @@ const Router = () => {
           options={{
             tabBarBadge: favorites > 0 ? favorites : null,
             tabBarBadgeStyle: {
-              backgroundColor: '#0076b5',
+              backgroundColor: '#303f9f',
               color: '#fff',
               borderColor: '#fff',
               borderWidth: 2,
